@@ -1,0 +1,59 @@
+<p id="para"> Hello</p>
+<script>
+var a=10;
+var b="10";
+document.writeln(a==b);
+document.writeln(a===b);
+
+var c=null;
+var d= undefined;
+document.writeln(c==d);
+document.writeln(c===d);
+
+var  e=10;
+if(e)
+document.writeln("true");
+else
+("false");
+
+var res=5+ 10+"hai" + 3 + 2;
+alert(res);
+
+var res1 = "janit" && 10; //if first operand is true worthy then returns second operand
+alert(res1);
+
+var res2 =+"10";
+alert(typeof(res2));
+var res3=+"10"+ +"15";
+alert(typeof(res3));
+
+var x="10";
+var y="10.32";
+document.writeln(parseInt(x) + parseFloat(y)); //adding
+document.writeln(x+y);  //concatenating
+document.writeln(x*y);  //implicit conversion 
+document.writeln(x-y);   //implicit conversion
+
+var m=new Number("82");
+document.writeln(m+10); //adding
+document.writeln(m+"10"); //concatinating
+alert(typeof(m));
+document.writeln(m.valueOf()+"10"); //concatinating
+
+</script>
+
+
+
+
+
+
+
+
+<script>
+var res = new Number("57hai");
+document.writeln(res);
+
+res=true && "sap" && "hello";
+document.writeln(res);
+
+</script>
