@@ -9,7 +9,6 @@
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
-  
   </welcome-file-list>
   <servlet>
     <servlet-name>TaxServlet</servlet-name>
@@ -28,12 +27,11 @@
     <url-pattern>/eligible</url-pattern>
   </servlet-mapping>
   <servlet>
-   
     <servlet-name>myquiz</servlet-name>
     <servlet-class>com.sapient.web.QuizServlet</servlet-class>
     <init-param>
-    <param-name>passper</param-name>
-    <param-value>50</param-value>
+      <param-name>passper</param-name>
+      <param-value>50</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
@@ -41,12 +39,22 @@
     <url-pattern>/quiz</url-pattern>
   </servlet-mapping>
   <context-param>
-  <param-name>headstr</param-name>
-  <param-value>powered by sapient technologies</param-value>
+    <param-name>headstr</param-name>
+    <param-value>powered by sapient technologies</param-value>
   </context-param>
   <context-param>
-  <param-name>homepg</param-name>
-  <param-value>Home.jsp</param-value>
+    <param-name>homepg</param-name>
+    <param-value>Home.jsp</param-value>
   </context-param>
   
+  <servlet>
+    <description></description>
+    <display-name>DownServlet1</display-name>
+    <servlet-name>DownServlet1</servlet-name>
+    <servlet-class>com.sapient.web.DownServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownServlet1</servlet-name>
+    <url-pattern>/downamex</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -33,15 +33,22 @@ a:hover{
 </div>
 <hr/>
 <table cellpadding="10" style="margin: 0 auto">
-<tr><td><a href="TaxFrm.jsp">Tax Calculation</a></td>
+<tr>
+<td><a href="TaxFrm.jsp">Tax Calculation</a></td>
 </tr>
-<tr><td><a href="EligibleFrm.jsp">Eligible for java dev</a></td>
+<tr>
+<td><a href="EligibleFrm.jsp">Eligible for java dev</a></td>
 </tr>
-<tr><td><a href="SkillFrm.jsp">Update Profile</a></td>
+<tr>
+<td><a href="SkillFrm.jsp">Update Profile</a></td>
 </tr>
-<tr><td><a href="QuizFrm.jsp">Play Quiz</a></td>
+<tr>
+<td><a href="QuizFrm.jsp">Play Quiz</a></td>
 </tr>
-
+</tr>
+<tr>
+<td><a href="downamex">Download Amex Application Form</a></td>
+</tr>
 
 </body>
 </html>
