@@ -1,0 +1,21 @@
+body{
+	width:80%;
+	margin:0 auto;
+}
+
+header, footer{
+	text-align: center;	
+}
+
+header{
+	background-image: url("images/computer.jpg");
+	background-repeat: no-repeat;
+}
+
+header span{
+	font-family: candara;
+	font-size: 48px;
+	text-shadow: 2px 2px 15px grey;
+	
+	
+}
