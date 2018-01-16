@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+2018-01-16 08:53:19.034 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0160-fe2c-37dc-000005ff4878
+on database directory C:\Users\hsin69\Web\JcrDemo\repository\version\db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2018-01-16 08:53:19.592 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 888c4022-0160-fe2c-37dc-000005ff4878
+on database directory C:\Users\hsin69\Web\JcrDemo\repository\workspaces\default\db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2018-01-16 08:53:20.237 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6965c036-0160-fe2c-37dc-000005ff4878
+on database directory C:\Users\hsin69\Web\JcrDemo\repository\workspaces\security\db  
+
+Database Class Loader started - derby.database.classpath=''
